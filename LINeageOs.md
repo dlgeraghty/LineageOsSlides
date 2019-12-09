@@ -42,15 +42,32 @@ Como instalar
 *O cambiarte de movil en el intento*
 
 ## Metodo: Fastboot & ADB
-	** Atencion, esto hara reset de fabrica y
-	   violara la garantia **
+	Atencion, esto hara reset de fabrica y   
+		violara la garantia
 	1. Obtener ADB y fastboot
 	2. Habilitar opciones de desarrollador
 	2.1 Habilitar USB debugging
 	2.2 Habilitar desbloqueo OEM
 	3. Conectar el telefono por usb y   
 		permitir el USB debugging
-	4. (Paso critico) ```adb reboot bootloader```
+	4. (Paso critico) ``` adb reboot bootloader ```
 	5. ```fastboot flashing/oem unlock```
 	6. ```fastboot reboot```
+
+# Custom Recovery (TWRP)
+
++ *Importante, descargar el twrp valido para tu movil,  
+	si no, experimentar...*
+
+## Metodo: ADB y Fastboot
+	1. Adb reboot bootloader
+	2. fastboot flash recovery archivo_con_tu_twrp
+	3. fastboot reboot
+
+## Metodo 2: TWRP Manager (app)
+	Mas sencillo que la anterior, si tu movil  
+	es compatible...
+	1. Descargar la app y seguir los pasos...
+
+https://www.xda-developers.com/how-to-install-twrp/ 
 
