@@ -9,6 +9,8 @@ theme:
 
 # LineageOs
 
+https://www.youtube.com/watch?v=5snxtA5e2RY
+
 ![LineageOs logo](lineage.png)
 
 # Introduccion
@@ -27,8 +29,7 @@ Algo de introduccion
 Como instalar
 
 1. Requisitos 
-2. Proceso
-3. Punto 3
+2. Instalacion
 
 # (Pre)Requisitos
 
@@ -71,3 +72,33 @@ Como instalar
 
 https://www.xda-developers.com/how-to-install-twrp/ 
 
+
+# Instalacion!
+
+1. Obtener la ROM...facil...no?
+2. Gapps? Huimos de google para volver a el?
+3. Instalar
+
+# Obtener la ROM
+
+1. Oficial de LineageOs
+2. Foro de XDA Developers
+
+# Oficial de LineageOs
+
+## oficial de LineageOs (recomendado)
+![list of officially supported devices by LineageOs](devices1.png)
+![list of officially supported devices by LineageOs](devices2.png)
+
+# Foro de XDA Developers
+
+## Foro de XDA Developers
+![xda developers forum](xda.png)
+
+# Instalar (como yo lo hago)
+
+* Guardar la ROM en una sd externa
+* Insertar la SD y bootear a twrp
+* (Backup?)
+* Wipe
+* Install: seleccionar la ROM (y las GAPPS)
