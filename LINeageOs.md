@@ -9,8 +9,6 @@ theme:
 
 # LineageOs
 
-https://www.youtube.com/watch?v=5snxtA5e2RY
-
 ![LineageOs logo](lineage.png)
 
 # Introduccion
@@ -20,6 +18,7 @@ Algo de introduccion
 + Punto 1
 + Punto 2
 + Punto 3
++ https://en.wikipedia.org/wiki/CyanogenMod
 
 # Instalacion 
 
@@ -54,6 +53,10 @@ Como instalar
 	4. (Paso critico) ``` adb reboot bootloader ```
 	5. ```fastboot flashing/oem unlock```
 	6. ```fastboot reboot```
+# Bootloader
+
+## El bootloader es algo como:
+![Android bootloader](bootloader.jpeg)
 
 # Custom Recovery (TWRP)
 
@@ -72,6 +75,10 @@ Como instalar
 
 https://www.xda-developers.com/how-to-install-twrp/ 
 
+# TWRP
+
+## TWRP se parece a:
+![TWRP image](twrp.png)
 
 # Instalacion!
 
@@ -102,3 +109,7 @@ https://www.xda-developers.com/how-to-install-twrp/
 * (Backup?)
 * Wipe
 * Install: seleccionar la ROM (y las GAPPS)
+
+# Video de apoyo:
+
+[![install lineage os](video.png)](https://www.youtube.com/watch?v=5snxtA5e2RY "install lineage os")
