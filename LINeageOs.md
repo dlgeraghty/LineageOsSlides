@@ -6,7 +6,7 @@ author:
 theme:
 - Copenhagen
 ---
-
+https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763
 # LineageOs
 
 ![LineageOs logo](lineage.png)
