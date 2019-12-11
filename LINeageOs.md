@@ -77,7 +77,95 @@ Todo empezó con...
 
 # Contribuir a LineageOs
 
-Aqui habra informacion sobre contribuir a lineage :)
++ To contribute, you'll need to be able to produce builds for your device. Pick your device from our list of supported devices to get started.
++ Once you’re successfully running your own build, you can begin to make your changes.
++ Once you’ve finished making your change, simply follow our guide on submitting to Gerrit.
+
+# Contribuir a LineageOs(1)
+
+Nos encontramos con varios problemas:
+
++ Como se produce una compilacion (build) para mi dispositivo
++ Y si no esta entre los oficiales...? (Mal asunto)
+
+# Contribuir a LineageOs(2)
+
+## Como compilar una version de LineageOs? (preparacion)
++ 1x Ordenador de la NASA (con linux)
++ Adb y fastboot
++ Estos pocos paquetes:
+bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev
+liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev
+imagemagick
++ Java
++ Repo
+
+# Contribuir a LineageOs(3)
+
+## Como compilar una version de LineageOs? (inicializar codigo)
++ Inicializar el repositorio:  
+repo init -u https://github.com/LineageOS/android.git -b cm-13.0  
++ Descargar el codigo:  
+repo sync  
+Note: This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!
+
+# Contribuir a LineageOs(4)
+
+## Como compilar una version de LineageOs? 
++ Obtener las aplicaciones por defecto:  
+cd /vendor/cm  
+./get-prebuilts
++ Preparar el codigo especifico paranuestro dispositivo:  
+source build/envsetup.sh  
+breakfast manta
++ Extraer el codigo propietario:  
+./extract-files.sh
+
+# Contribuir a LineageOs(5)
+
+## Como compilar una version de LineageOs? (por fin)
+
++ activar el mecanismo de cache:  
+export USE_CCHACHE=1
++ especificar la cantidad de disco que queremos usar para cache:  
+prebuilts/misc/linux-x86/ccache/ccache -M 50G
++ Start the build:  
+croot  
+brunch manta  
++ Install the build:  
+cd $OUT
++ Esto produce un recovery.img
+
+# Contribuir a LineageOs(6)
+
+## Entonces...facil...no?
++ Quien escribio este comentario en el tutorial no diria lo mismo:  
+The key point here is that you say run the extract-files.sh script. However, if your device is not supported it doesn't tell you how to update the script to list the files that need extracting for your device.
++ En respuesta al anterior:  
+Thanks man, you saved me a lot of vain effort. The title is misleading.
+
+# Contribuir a LineageOs(7)
++ Entonces como obtenemos LineageOs para un dispositivo que no esta en la lista oficial?
+
+## Buscando en muchos foros, la mejor respuesta:
+Porting Android to a new device is a hard task and there is no single manual for it.  
+
+I suggest you go to https://source.android.com/ and read everything about Android builds.  
+
+Basically, you need those things:  
+
+1. A device tree
+
+2. The kernel
+
+3. Vendor blobs
+
+[//]: <> (https://www.lineageosrom.com/2017/01/how-to-build-lineageos-rom-for-any.html)
+
+# Contribuir a LineageOs(Gerrit)
+
+## Guia para enviar un parche:
+[1]: https://wiki.lineageos.org/submitting-patch-howto.html  
 
 # Instalacion 
 
