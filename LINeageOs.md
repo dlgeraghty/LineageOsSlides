@@ -13,12 +13,43 @@ theme:
 
 # Introduccion
 
-Algo de introduccion
++ Contexto
++ Historia
++ Curiosidades
++ Referencias
 
-+ Punto 1
-+ Punto 2
-+ Punto 3
-+ https://en.wikipedia.org/wiki/CyanogenMod
+# Contexto
+	1. LineageOs
+	2. Software libre
+	
+# LineageOS
+LineageOs es sistema operativo que se trata de un fork de
+Android, por tanto, es software libre y está orientado a su
+uso en teléfonos inteligentes y tabletas.
+
+# Que es el software libre? 
+
+# Fork 
+Fork en castellano, bifurcación, se trata de una distribución
+no oficial de un proyecto de software. La bifurcación se
+asienta sobre el código original ampliándolo o modificándolo
+significativamente.
+
+# Historia
+
++ CyanogenMod
++ Fork a Lineage
+
+## CyanogenMod
+
++ HTC Dream - root
++ Ventajas
++ Popularizacion
++ Figura de versiones de CyanogenMod
++ Comercializacion -> problemas
++ Fork a Lineage
+
+# Contribuir a LineageOs
 
 # Instalacion 
 
