@@ -1,35 +1,52 @@
 ---
 title:
-- LineageOs
+- Lineage Os LIN 2019
 author:
-- David Lopez
+- David Lopez, Andres Cardenal 
 theme:
 - Copenhagen
 ---
-https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763
+
+[//]: <> (https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763)
 # LineageOs
 
-![LineageOs logo](lineage.png)
+![LineageOs logo](lineage.png)\ 
+
+# Indice
+
+1. Introduccion
+2. Contribuir a LineageOS
+3. Instalar LineageOS
 
 # Introduccion
 
-+ Contexto
-+ Historia
-+ Curiosidades
-+ Referencias
+1. Contexto
+2. Historia
+3. Curiosidades
+4. Referencias
 
 # Contexto
-	1. LineageOs
-	2. Software libre
+1. LineageOs
+2. Software libre
 	
 # LineageOS
+
+## Qué es LineageOs?
+
 LineageOs es sistema operativo que se trata de un fork de
 Android, por tanto, es software libre y está orientado a su
 uso en teléfonos inteligentes y tabletas.
 
 # Que es el software libre? 
 
+## Informacion a cerca del software libre
+
+Oli :)
+
 # Fork 
+
+## Qué es un Fork?
+
 Fork en castellano, bifurcación, se trata de una distribución
 no oficial de un proyecto de software. La bifurcación se
 asienta sobre el código original ampliándolo o modificándolo
@@ -37,19 +54,30 @@ significativamente.
 
 # Historia
 
+Todo empezó con...
+
 + CyanogenMod
 + Fork a Lineage
 
+# CyanogenMod
+
 ## CyanogenMod
 
-+ HTC Dream - root
-+ Ventajas
++ HTC Dream
+	- Se logra escalar privilegios (root)
++ Ventajas sobre el Android convencional
+	- *El elixir de la eterna juventud*
 + Popularizacion
-+ Figura de versiones de CyanogenMod
-+ Comercializacion -> problemas
+	- 50 millones de instalaciones en 2013...
++ Versiones de CyanogenMod 
+	- Cyanogenmod 3 - 14.1 (Android 1.5 hasta 7.1.x)
++ Comercializacion
+	- El inicio del fin
 + Fork a Lineage
 
 # Contribuir a LineageOs
+
+Aqui habra informacion sobre contribuir a lineage :)
 
 # Instalacion 
 
@@ -124,13 +152,11 @@ https://www.xda-developers.com/how-to-install-twrp/
 
 # Oficial de LineageOs
 
-## oficial de LineageOs (recomendado)
 ![list of officially supported devices by LineageOs](devices1.png)
 ![list of officially supported devices by LineageOs](devices2.png)
 
 # Foro de XDA Developers
 
-## Foro de XDA Developers
 ![xda developers forum](xda.png)
 
 # Instalar (como yo lo hago)
