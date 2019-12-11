@@ -54,3 +54,4 @@ https://www.xataka.com/moviles/lineageos-milagro-eterna-juventud-asi-disfrutan-a
 2. Repo: Programa de google que corre encima de Git.
 
 https://source.android.com/setup/contribute/submit-patches
+https://android-review.googlesource.com/q/status:open
