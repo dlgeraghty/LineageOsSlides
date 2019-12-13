@@ -39,9 +39,12 @@ uso en teléfonos inteligentes y tabletas.
 
 # Que es el software libre? 
 
-## Informacion a cerca del software libre
+##  100 Libertades del software libre
 
-Oli :)
++ 001 - Usar
++ 010 - Estudiar
++ 011 - Compartir
++ 100 - Mejorar 
 
 # Fork 
 
@@ -164,8 +167,41 @@ Basically, you need those things:
 
 # Contribuir a LineageOs(Gerrit)
 
+*Gerrit es un servidor y administrador de repositorios git.*
+
+[Gerrit de LineageOs](https://review.lineageos.org/q/status:open)
+
 ## Guia para enviar un parche:
-[1]: https://wiki.lineageos.org/submitting-patch-howto.html  
+[documentacion oficial](https://wiki.lineageos.org/submitting-patch-howto.html) 
+
+1. Setup
+	+ Configurar git y ssh
+	+ Preparar directorios de trabajo
+2. Enviar a Gerrit
+	+ Subir cambios
+3. Revision de tu envio
+
+# Gerrit (subir cambios)
+
+## Empezar una nueva rama
++ repo start \<branch name\> \<project name\>
+
+## Aplicar cambios en git (local)
++ git add .  
++ git commit ...
+
+## Subir los cambios a Gerrit:
++ repo upload .
+
+# Revision de cambios:
+
+## Incorporar revisores
++ Que sean mantenedores de tu dispositivo
+
+## Etiquetar el parche segun el estado
++ No fusionar, preferiria que no se fusionase  
+, a mi me parece que esta bien pero necesita  
+revision, a mi me parece bien , aprobado! 
 
 # Instalacion 
 
@@ -182,7 +218,11 @@ Como instalar
 *Sin esto...no vamos bien...*
 
 1. Bootloader desbloqueado
-2. Custom recovery instalada 
+	+ Gestor de arranque
+	+ [articulo sobre bootloader](https://www.andro4all.com/2019/01/bootloader-android-desbloquear)	
+2. Custom recovery instalada
+	+  Particion de arranque independiente del sistema
+	+ [articulo sobre recovery](https://www.xatakandroid.com/tutoriales/como-entrar-al-modo-recovery-en-android) 
 
 # Besbloquear bootloader
 
@@ -197,9 +237,9 @@ Como instalar
 	2.2 Habilitar desbloqueo OEM
 	3. Conectar el telefono por usb y   
 		permitir el USB debugging
-	4. (Paso critico) ``` adb reboot bootloader ```
-	5. ```fastboot flashing/oem unlock```
-	6. ```fastboot reboot```
+	4. (Paso critico) adb reboot bootloader 
+	5. fastboot flashing/oem unlock
+	6. fastboot reboot
 # Bootloader
 
 ## El bootloader es algo como:
@@ -220,7 +260,7 @@ Como instalar
 	es compatible...
 	1. Descargar la app y seguir los pasos...
 
-https://www.xda-developers.com/how-to-install-twrp/ 
+<https://www.xda-developers.com/how-to-install-twrp/ >
 
 # TWRP
 
