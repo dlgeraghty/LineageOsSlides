@@ -78,6 +78,35 @@ Todo empezó con...
 	- El inicio del fin
 + Fork a Lineage
 
+# Ventajas frente a Android
+
+## Herramientas que ofrecia no incluidas en Android
+
++ Soporte nativo de temas
++ Privacy Guard
++ Tethering mediante Wi-Fi , Bluetooth o USB
+
+## Mejora en la calidad del software
+
++ Mejoraba el rendimiento
++ Mejora la fiabilidad
++ Combate el spyware y el bloatware
+
+# Controversias
+
+## Discusion con Google 
+
++ En Septiembre de 2009 , Google envio una carta de cese  
+y desistimiento a Cyanogen debido a que en CyanogenMod  
+se incluian aplicaciones de software privativo de Google
+
+## Violacion de la provacidad
+
++ En Abril de 2013, los desarrolladores de CyanogenMod,  
+Decidieron deshabilitar la opcion de estadisticas siendo  
+posteriormente otra vez habilitada
+
+
 # Contribuir a LineageOs
 
 + To contribute, you'll need to be able to produce builds for your device. Pick your device from our list of supported devices to get started.
